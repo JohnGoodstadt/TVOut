@@ -14,15 +14,25 @@
 		52BC7B4815F75551005EAE1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC7B4715F75551005EAE1E /* main.m */; };
 		52BC7B4C15F75551005EAE1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC7B4B15F75551005EAE1E /* AppDelegate.m */; };
 		52BC7B4F15F75551005EAE1E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC7B4E15F75551005EAE1E /* MainViewController.m */; };
-		52BC7B5215F75551005EAE1E /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC7B5115F75551005EAE1E /* FlipsideViewController.m */; };
 		52BC7B5515F75551005EAE1E /* MainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B5315F75551005EAE1E /* MainViewController_iPhone.xib */; };
 		52BC7B5815F75551005EAE1E /* MainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B5615F75551005EAE1E /* MainViewController_iPad.xib */; };
-		52BC7B5B15F75551005EAE1E /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B5915F75551005EAE1E /* FlipsideViewController.xib */; };
 		52BC7B6315F75551005EAE1E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BC7B6215F75551005EAE1E /* SenTestingKit.framework */; };
 		52BC7B6415F75551005EAE1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BC7B3B15F75551005EAE1E /* UIKit.framework */; };
 		52BC7B6515F75551005EAE1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BC7B3D15F75551005EAE1E /* Foundation.framework */; };
 		52BC7B6D15F75551005EAE1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B6B15F75551005EAE1E /* InfoPlist.strings */; };
 		52BC7B7015F75551005EAE1E /* TVOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC7B6F15F75551005EAE1E /* TVOutTests.m */; };
+		52BC7B7C15F755EE005EAE1E /* ExternalDisplayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC7B7B15F755EE005EAE1E /* ExternalDisplayHandler.m */; };
+		52BC7B7D15F755EE005EAE1E /* ExternalDisplayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC7B7B15F755EE005EAE1E /* ExternalDisplayHandler.m */; };
+		52BC7B8915F76DA6005EAE1E /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8515F76DA6005EAE1E /* arrow-down.png */; };
+		52BC7B8A15F76DA6005EAE1E /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8515F76DA6005EAE1E /* arrow-down.png */; };
+		52BC7B8B15F76DA6005EAE1E /* arrow-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8615F76DA6005EAE1E /* arrow-up.png */; };
+		52BC7B8C15F76DA6005EAE1E /* arrow-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8615F76DA6005EAE1E /* arrow-up.png */; };
+		52BC7B8D15F76DA6005EAE1E /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8715F76DA6005EAE1E /* arrow-right.png */; };
+		52BC7B8E15F76DA6005EAE1E /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8715F76DA6005EAE1E /* arrow-right.png */; };
+		52BC7B8F15F76DA6005EAE1E /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8815F76DA6005EAE1E /* arrow-left.png */; };
+		52BC7B9015F76DA6005EAE1E /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8815F76DA6005EAE1E /* arrow-left.png */; };
+		52BC7B9215F7B415005EAE1E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B9115F7B415005EAE1E /* README */; };
+		52BC7B9315F7B415005EAE1E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B9115F7B415005EAE1E /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,25 +50,29 @@
 		52BC7B3B15F75551005EAE1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52BC7B3D15F75551005EAE1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		52BC7B3F15F75551005EAE1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		52BC7B4315F75551005EAE1E /* TVOut-Info.plist */ = {isa = PBXFileReference; path = "TVOut-Info.plist"; sourceTree = "<group>"; };
+		52BC7B4315F75551005EAE1E /* TVOut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVOut-Info.plist"; sourceTree = "<group>"; };
 		52BC7B4515F75551005EAE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52BC7B4715F75551005EAE1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		52BC7B4915F75551005EAE1E /* TVOut-Prefix.pch */ = {isa = PBXFileReference; path = "TVOut-Prefix.pch"; sourceTree = "<group>"; };
-		52BC7B4A15F75551005EAE1E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		52BC7B4915F75551005EAE1E /* TVOut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TVOut-Prefix.pch"; sourceTree = "<group>"; };
+		52BC7B4A15F75551005EAE1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52BC7B4B15F75551005EAE1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		52BC7B4D15F75551005EAE1E /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		52BC7B4D15F75551005EAE1E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		52BC7B4E15F75551005EAE1E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		52BC7B5015F75551005EAE1E /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
-		52BC7B5115F75551005EAE1E /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		52BC7B5415F75551005EAE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController_iPhone.xib; sourceTree = "<group>"; };
 		52BC7B5715F75551005EAE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController_iPad.xib; sourceTree = "<group>"; };
-		52BC7B5A15F75551005EAE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
 		52BC7B6115F75551005EAE1E /* TVOutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TVOutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BC7B6215F75551005EAE1E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		52BC7B6A15F75551005EAE1E /* TVOutTests-Info.plist */ = {isa = PBXFileReference; path = "TVOutTests-Info.plist"; sourceTree = "<group>"; };
+		52BC7B6A15F75551005EAE1E /* TVOutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TVOutTests-Info.plist"; sourceTree = "<group>"; };
 		52BC7B6C15F75551005EAE1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		52BC7B6E15F75551005EAE1E /* TVOutTests.h */ = {isa = PBXFileReference; path = TVOutTests.h; sourceTree = "<group>"; };
+		52BC7B6E15F75551005EAE1E /* TVOutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVOutTests.h; sourceTree = "<group>"; };
 		52BC7B6F15F75551005EAE1E /* TVOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVOutTests.m; sourceTree = "<group>"; };
+		52BC7B7A15F755EE005EAE1E /* ExternalDisplayHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalDisplayHandler.h; sourceTree = "<group>"; };
+		52BC7B7B15F755EE005EAE1E /* ExternalDisplayHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalDisplayHandler.m; sourceTree = "<group>"; };
+		52BC7B8515F76DA6005EAE1E /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		52BC7B8615F76DA6005EAE1E /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
+		52BC7B8715F76DA6005EAE1E /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		52BC7B8815F76DA6005EAE1E /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		52BC7B9115F7B415005EAE1E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +102,8 @@
 		52BC7B2C15F75551005EAE1E = {
 			isa = PBXGroup;
 			children = (
+				52BC7B9115F7B415005EAE1E /* README */,
+				52BC7B7915F755B0005EAE1E /* ExternalMonitor */,
 				52BC7B4115F75551005EAE1E /* TVOut */,
 				52BC7B6815F75551005EAE1E /* TVOutTests */,
 				52BC7B3A15F75551005EAE1E /* Frameworks */,
@@ -118,15 +134,13 @@
 		52BC7B4115F75551005EAE1E /* TVOut */ = {
 			isa = PBXGroup;
 			children = (
+				52BC7B7E15F76C68005EAE1E /* images */,
 				52BC7B4A15F75551005EAE1E /* AppDelegate.h */,
 				52BC7B4B15F75551005EAE1E /* AppDelegate.m */,
 				52BC7B4D15F75551005EAE1E /* MainViewController.h */,
 				52BC7B4E15F75551005EAE1E /* MainViewController.m */,
-				52BC7B5015F75551005EAE1E /* FlipsideViewController.h */,
-				52BC7B5115F75551005EAE1E /* FlipsideViewController.m */,
 				52BC7B5315F75551005EAE1E /* MainViewController_iPhone.xib */,
 				52BC7B5615F75551005EAE1E /* MainViewController_iPad.xib */,
-				52BC7B5915F75551005EAE1E /* FlipsideViewController.xib */,
 				52BC7B4215F75551005EAE1E /* Supporting Files */,
 			);
 			path = TVOut;
@@ -160,6 +174,26 @@
 				52BC7B6B15F75551005EAE1E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52BC7B7915F755B0005EAE1E /* ExternalMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				52BC7B7A15F755EE005EAE1E /* ExternalDisplayHandler.h */,
+				52BC7B7B15F755EE005EAE1E /* ExternalDisplayHandler.m */,
+			);
+			name = ExternalMonitor;
+			sourceTree = "<group>";
+		};
+		52BC7B7E15F76C68005EAE1E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				52BC7B8515F76DA6005EAE1E /* arrow-down.png */,
+				52BC7B8615F76DA6005EAE1E /* arrow-up.png */,
+				52BC7B8715F76DA6005EAE1E /* arrow-right.png */,
+				52BC7B8815F76DA6005EAE1E /* arrow-left.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +269,11 @@
 				52BC7B4615F75551005EAE1E /* InfoPlist.strings in Resources */,
 				52BC7B5515F75551005EAE1E /* MainViewController_iPhone.xib in Resources */,
 				52BC7B5815F75551005EAE1E /* MainViewController_iPad.xib in Resources */,
-				52BC7B5B15F75551005EAE1E /* FlipsideViewController.xib in Resources */,
+				52BC7B8915F76DA6005EAE1E /* arrow-down.png in Resources */,
+				52BC7B8B15F76DA6005EAE1E /* arrow-up.png in Resources */,
+				52BC7B8D15F76DA6005EAE1E /* arrow-right.png in Resources */,
+				52BC7B8F15F76DA6005EAE1E /* arrow-left.png in Resources */,
+				52BC7B9215F7B415005EAE1E /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +282,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BC7B6D15F75551005EAE1E /* InfoPlist.strings in Resources */,
+				52BC7B8A15F76DA6005EAE1E /* arrow-down.png in Resources */,
+				52BC7B8C15F76DA6005EAE1E /* arrow-up.png in Resources */,
+				52BC7B8E15F76DA6005EAE1E /* arrow-right.png in Resources */,
+				52BC7B9015F76DA6005EAE1E /* arrow-left.png in Resources */,
+				52BC7B9315F7B415005EAE1E /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +316,7 @@
 				52BC7B4815F75551005EAE1E /* main.m in Sources */,
 				52BC7B4C15F75551005EAE1E /* AppDelegate.m in Sources */,
 				52BC7B4F15F75551005EAE1E /* MainViewController.m in Sources */,
-				52BC7B5215F75551005EAE1E /* FlipsideViewController.m in Sources */,
+				52BC7B7C15F755EE005EAE1E /* ExternalDisplayHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BC7B7015F75551005EAE1E /* TVOutTests.m in Sources */,
+				52BC7B7D15F755EE005EAE1E /* ExternalDisplayHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,14 +362,6 @@
 				52BC7B5715F75551005EAE1E /* en */,
 			);
 			name = MainViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		52BC7B5915F75551005EAE1E /* FlipsideViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52BC7B5A15F75551005EAE1E /* en */,
-			);
-			name = FlipsideViewController.xib;
 			sourceTree = "<group>";
 		};
 		52BC7B6B15F75551005EAE1E /* InfoPlist.strings */ = {
