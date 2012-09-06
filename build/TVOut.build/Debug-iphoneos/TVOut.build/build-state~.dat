@@ -1,0 +1,402 @@
+TTVOut
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/Info.plist TVOut/TVOut-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/TVOut.app/ResourceRules.plist
+cProcessPCH /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch.pth TVOut/TVOut-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/main.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/AppDelegate.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/MainViewController.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/FlipsideViewController.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/ExternalDisplayHandler.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOut normal armv7
+cGenerateDSYMFile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app.dSYM /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOut
+cCopyStringsFile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/InfoPlist.strings TVOut/en.lproj/InfoPlist.strings
+cCompileXIB /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPad.xib
+cCompileXIB /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPhone.xib
+cCompileXIB /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/FlipsideViewController.xib
+cProcessProductPackaging "/Users/john/Library/MobileDevice/Provisioning Profiles/BB81BD67-1A66-448B-892B-91585E73DA07.mobileprovision" /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/john/Library/MobileDevice/Provisioning Profiles/BB81BD67-1A66-448B-892B-91585E73DA07.mobileprovision" /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/embedded.mobileprovision
+cTouch /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut.xcent
+cCodeSign /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004F5B1E2100000000000001A7
+t1331371553
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004F5B1E2100000000000001E5
+t1331371553
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F5B1E2300000000003AE430
+t1331371555
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F5B1E24000000000052C940
+t1331371556
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F5B1E260000000000798EA0
+t1331371558
+s7966368
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m
+c00000000504724D60000000000001A17
+t1346839766
+s6679
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/AppDelegate.m
+c0000000050471DD10000000000000A5C
+t1346837969
+s2652
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/FlipsideViewController.m
+c0000000050471DD100000000000004DA
+t1346837969
+s1242
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/MainViewController.m
+c00000000504729E10000000000000EDC
+t1346841057
+s3804
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/TVOut-Prefix.pch
+c0000000050471DD10000000000000139
+t1346837969
+s313
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/FlipsideViewController.xib
+c0000000050471DD10000000000002338
+t1346837969
+s9016
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/InfoPlist.strings
+c0000000050471DD1000000000000002D
+t1346837969
+s45
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPad.xib
+c000000005047233D0000000000002683
+t1346839357
+s9859
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPhone.xib
+c00000000504723780000000000002583
+t1346839416
+s9603
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/main.m
+c0000000050471DD1000000000000015A
+t1346837969
+s346
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app.dSYM
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/Info.plist
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/PkgInfo
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/ResourceRules.plist
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOut
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/FlipsideViewController.nib
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/MainViewController_iPad.nib
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/MainViewController_iPhone.nib
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/ExternalDisplayHandler.o
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/FlipsideViewController.o
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/MainViewController.o
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/TVOut.LinkFileList
+c00000000504729FA00000000000002CD
+t1346841082
+s717
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut.xcent
+t2
+s0
+
+N/Users/john/Library/MobileDevice/Provisioning Profiles/BB81BD67-1A66-448B-892B-91585E73DA07.mobileprovision
+c000000005045C26E0000000000001F29
+t1346749038
+s7977
+
+N/var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch.pth
+t2
+s0
+
+NTVOut/TVOut-Info.plist
+c0000000050471DD100000000000005B6
+t1346837969
+s1462
+
+CBuild AST from /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m
+r0
+
+CBuild AST from /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/AppDelegate.m
+r0
+
+CBuild AST from /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/FlipsideViewController.m
+r0
+
+CBuild AST from /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/MainViewController.m
+r0
+
+CBuild AST from /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies44a2a07a61f7b541^1f49c57a61f7b541^---0#1#0#--18"Check dependencies36"C9210D8A-845C-4666-AE59-31445EB79E39-
+
+CCodeSign /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app
+s368533886.120865
+e368533886.368845
+r1
+xCodeSign
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"CodeSign build/Debug-iphoneos/TVOut.appea091f7e61f7b541^f46c5e7e61f7b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/0000000000000000^856"CodeSign build/Debug-iphoneos/TVOut.app    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign cae5e138770bd910e1d2db8921bb7204519ee9ef --resource-rules=/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/ResourceRules.plist --entitlements /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut.xcent /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app36"BAB80A8C-22C5-4A72-AB80-8189E8D0F3E0-
+
+CCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/AppDelegate.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368533883.101511
+e368533883.358990
+r1
+xCompileC
+xbuild/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/AppDelegate.o
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/AppDelegate.m81261a7b61f7b541^c5e65b7b61f7b541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/AppDelegate.m0000000000000000^3239"CompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/AppDelegate.o TVOut/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-generated-files.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-own-target-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-all-target-headers.hmap -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-project-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/include -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources/armv7 -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources -F/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos -include /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch -MMD -MT dependencies -MF /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/AppDelegate.dia -c /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/AppDelegate.m -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/AppDelegate.o36"59FFC78B-DABE-491F-B03F-76D1C6251A68-
+
+CCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/ExternalDisplayHandler.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368533883.352070
+e368533883.461444
+r1
+xCompileC
+xbuild/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/ExternalDisplayHandler.o
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]
+o@implementation ExternalDisplayHandler
+o                ^
+o/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m:14:1: note: method definition for 'screenDidChange999:' not found
+o-(void)screenDidChange999:(NSNotification *)notification;
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m3f585a7b61f7b541^d11f767b61f7b541^-444"/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m:17:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation ExternalDisplayHandler                ^/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m:14:1: note: method definition for 'screenDidChange999:' not found-(void)screenDidChange999:(NSNotification *)notification;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@25"Incomplete implementation-368533883#18446744073709551615#0#1(2@53"Method definition for 'screenDidChange999:' not found-368533883#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@99"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m0000000000000000^13#0#13#0#312#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@99"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m0000000000000000^16#16#16#16#392#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@99"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m0000000000000000^3293"CompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/ExternalDisplayHandler.o ExternalDisplayHandler.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-generated-files.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-own-target-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-all-target-headers.hmap -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-project-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/include -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources/armv7 -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources -F/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos -include /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch -MMD -MT dependencies -MF /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/ExternalDisplayHandler.d --serialize-diagnostics /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/ExternalDisplayHandler.dia -c /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/ExternalDisplayHandler.m -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/ExternalDisplayHandler.o36"5393201F-50F5-4590-AD40-DD044D71E281-
+
+CCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/FlipsideViewController.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368533883.102664
+e368533883.356024
+r1
+xCompileC
+xbuild/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/FlipsideViewController.o
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/FlipsideViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/FlipsideViewController.m27691a7b61f7b541^b83f5b7b61f7b541^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/FlipsideViewController.m0000000000000000^3305"CompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/FlipsideViewController.o TVOut/FlipsideViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-generated-files.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-own-target-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-all-target-headers.hmap -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-project-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/include -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources/armv7 -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources -F/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos -include /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch -MMD -MT dependencies -MF /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/FlipsideViewController.d --serialize-diagnostics /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/FlipsideViewController.dia -c /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/FlipsideViewController.m -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/FlipsideViewController.o36"94C3CCB7-985E-4822-AE4C-84FA59E41FDD-
+
+CCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/MainViewController.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368533883.102393
+e368533883.360233
+r1
+xCompileC
+xbuild/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/MainViewController.o
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/MainViewController.m6d591a7b61f7b541^59355c7b61f7b541^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/MainViewController.m0000000000000000^3281"CompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/MainViewController.o TVOut/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-generated-files.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-own-target-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-all-target-headers.hmap -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-project-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/include -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources/armv7 -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources -F/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos -include /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch -MMD -MT dependencies -MF /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/MainViewController.dia -c /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/MainViewController.m -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/MainViewController.o36"B9D9A9A0-4454-4720-BB3A-72DA0BDC1BC2-
+
+CCompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/main.o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368533883.101515
+e368533883.349164
+r1
+xCompileC
+xbuild/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/main.o
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/main.mfe2c1a7b61f7b541^e561597b61f7b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/main.m0000000000000000^3197"CompileC build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/main.o TVOut/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-generated-files.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-own-target-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-all-target-headers.hmap -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-project-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/include -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources/armv7 -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources -F/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos -include /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch -MMD -MT dependencies -MF /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/main.dia -c /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/main.m -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/main.o36"02B4A33F-C3B1-4DD7-AB24-EE07ABF96B03-
+
+CCompileXIB /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/FlipsideViewController.xib
+s368533884.741760
+e368533885.935205
+r1
+xCompileXIB
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/FlipsideViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compiling /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/FlipsideViewController.xiba1f4bd7c61f7b541^2e76ef7d61f7b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/FlipsideViewController.xib0000000000000000^919"CompileXIB TVOut/en.lproj/FlipsideViewController.xib    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/FlipsideViewController.nib /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/FlipsideViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"3D14872D-59D2-4AF3-96D9-276D3814307E-
+
+CCompileXIB /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPad.xib
+s368533884.741354
+e368533885.886705
+r1
+xCompileXIB
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPad.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compiling /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPad.xibc6e0bd7c61f7b541^9609e37d61f7b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPad.xib0000000000000000^922"CompileXIB TVOut/en.lproj/MainViewController_iPad.xib    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/MainViewController_iPad.nib /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPad.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"BE81DB7B-69C5-4848-9D01-8F5536D9AF4A-
+
+CCompileXIB /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPhone.xib
+s368533884.741358
+e368533885.995114
+r1
+xCompileXIB
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPhone.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compiling /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPhone.xib69e2bd7c61f7b541^cdcafe7d61f7b541^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPhone.xib0000000000000000^928"CompileXIB TVOut/en.lproj/MainViewController_iPhone.xib    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/MainViewController_iPhone.nib /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/MainViewController_iPhone.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk36"68A1E1AB-08EC-491F-9BF8-3681B51292BB-
+
+CCopyStringsFile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/InfoPlist.strings TVOut/en.lproj/InfoPlist.strings
+s368533884.741345
+e368533884.745235
+r1
+xCopyStringsFile
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj/InfoPlist.strings
+xTVOut/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy TVOut/en.lproj/InfoPlist.strings4ce1bd7c61f7b541^fcc7be7c61f7b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/en.lproj/InfoPlist.strings0000000000000000^586"CopyStringsFile build/Debug-iphoneos/TVOut.app/en.lproj/InfoPlist.strings TVOut/en.lproj/InfoPlist.strings    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/en.lproj -- TVOut/en.lproj/InfoPlist.strings36"C7FBF20E-FCD1-4A1C-B311-9362FFE582B5-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/TVOut.app/ResourceRules.plist
+s368533882.778161
+e368533882.782801
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/TVOut.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/TVOut.app/ResourceRules.plistf149c77a61f7b541^0c75c87a61f7b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/ResourceRules.plist000000000080d041^867"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/TVOut.app/ResourceRules.plist    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app36"BAE98D17-03D6-4129-8452-9C0F1AC9FD63-
+
+CGenerateDSYMFile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app.dSYM /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOut
+s368533884.711730
+e368533884.732461
+r1
+xGenerateDSYMFile
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app.dSYM
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOut
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Generating /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app.dSYM2846b67c61f7b541^2783bb7c61f7b541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app.dSYM000000000080d041^602"GenerateDSYMFile build/Debug-iphoneos/TVOut.app.dSYM build/Debug-iphoneos/TVOut.app/TVOut    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/dsymutil /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOut -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app.dSYM36"1E64E2A4-9675-40A5-BF47-2AF908FE54C8-
+
+CLd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOut normal armv7
+s368533883.468550
+e368533884.703841
+r1
+xLd
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOut
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOutc30d787b61f7b541^732fb47c61f7b541^---0#0#0#--1100"Ld build/Debug-iphoneos/TVOut.app/TVOut normal armv7    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos -F/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos -filelist /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/Objects-normal/armv7/TVOut.LinkFileList -dead_strip -fobjc-arc -miphoneos-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/TVOut36"B70221B9-0FAC-44DA-AE1F-9DAC7052AEF3-
+
+CProcessInfoPlistFile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/Info.plist TVOut/TVOut-Info.plist
+s368533882.778146
+e368533882.782795
+r1
+xProcessInfoPlistFile
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/Info.plist
+xTVOut/TVOut-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process TVOut/TVOut-Info.plist4546c77a61f7b541^d17ac87a61f7b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/TVOut-Info.plist0000000000000000^790"ProcessInfoPlistFile build/Debug-iphoneos/TVOut.app/Info.plist TVOut/TVOut-Info.plist    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TVOut/TVOut-Info.plist -genpkginfo /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/ResourceRules.plist -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/Info.plist36"BA0A0DE0-5E3A-4012-B511-DD845F254A82-
+
+CProcessPCH /Users/john/Library/Developer/Xcode/DerivedData/TVOut-fugnmzjkjvnisterejqkjamkdcty/Index/PrecompiledHeaders/TVOut-Prefix-ddgwyucjvottxgfdxmxdelnnvsqu_ast/TVOut-Prefix.pch.pth TVOut/TVOut-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch.pth TVOut/TVOut-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368533882.791025
+e368533883.094947
+r1
+xProcessPCH
+x/var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch.pth
+xTVOut/TVOut-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile TVOut/TVOut-Prefix.pch00a8ca7a61f7b541^4850187b61f7b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/TVOut-Prefix.pch0000000000000000^3219"ProcessPCH /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch.pth TVOut/TVOut-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-generated-files.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-own-target-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-all-target-headers.hmap -iquote /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut-project-headers.hmap -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/include -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources/armv7 -I/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/DerivedSources -F/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos --serialize-diagnostics /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch.dia -c /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/TVOut/TVOut-Prefix.pch -o /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/qs/g_b0c40n0tx2k0jpzzv_45g00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TVOut-Prefix-csjukmtffmhqrmdfuxulhedetqnm/TVOut-Prefix.pch.d36"692E473B-3306-4BA9-9589-9967C286D19B-
+
+CProcessProductPackaging "/Users/john/Library/MobileDevice/Provisioning Profiles/BB81BD67-1A66-448B-892B-91585E73DA07.mobileprovision" /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/embedded.mobileprovision
+s368533886.036862
+e368533886.046169
+r1
+xProcessProductPackaging
+x/Users/john/Library/MobileDevice/Provisioning Profiles/BB81BD67-1A66-448B-892B-91585E73DA07.mobileprovision
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection189"ProcessProductPackaging "/Users/john/Library/MobileDevice/Provisioning Profiles/BB81BD67-1A66-448B-892B-91585E73DA07.mobileprovision" build/Debug-iphoneos/TVOut.app/embedded.mobileprovisioneca1097e61f7b541^00560b7e61f7b541^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/embedded.mobileprovision0000000000000000^708"ProcessProductPackaging "/Users/john/Library/MobileDevice/Provisioning Profiles/BB81BD67-1A66-448B-892B-91585E73DA07.mobileprovision" build/Debug-iphoneos/TVOut.app/embedded.mobileprovision    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/john/Library/MobileDevice/Provisioning Profiles/BB81BD67-1A66-448B-892B-91585E73DA07.mobileprovision" -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app/embedded.mobileprovision36"BA853105-36EA-4F78-9253-D9D02D7402DD-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut.xcent
+s368533886.084955
+e368533886.112845
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut.xcent52d4157e61f7b541^7ae31c7e61f7b541^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut.xcent000000000080d041^758"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut.xcent    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/TVOut.build/Debug-iphoneos/TVOut.build/TVOut.xcent36"6E69E218-D3AB-415A-A314-EA74216D08EB-
+
+CTouch /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app
+s368533886.055657
+e368533886.076840
+r1
+xTouch
+x/Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app54570e7e61f7b541^0cac137e61f7b541^---0#0#0#--403"Touch build/Debug-iphoneos/TVOut.app    cd /Users/john/Documents/Development/GitHubSource/TVOut/TVOut    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/john/Documents/Development/GitHubSource/TVOut/TVOut/build/Debug-iphoneos/TVOut.app36"D7115ED7-1FE4-4104-9095-9CD22CBF78E4-
+
