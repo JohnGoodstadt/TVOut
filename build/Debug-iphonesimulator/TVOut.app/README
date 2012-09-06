@@ -73,7 +73,8 @@ In ViewDidUnload add the following
 
     if(self.externalDisplayHandler)
     {
-        [self.externalDisplayHandler denotify]; // removeconnect/disconnect notifications
+        // remove connect/disconnect notifications
+        [self.externalDisplayHandler denotify]; 
         externalDisplayHandler = nil;
     }
     

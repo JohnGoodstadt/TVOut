@@ -11,7 +11,7 @@
 #import <unistd.h> // do i need this?
 
 @interface ExternalDisplayHandler ()
--(void)screenDidChange999:(NSNotification *)notification;
+
 @end
 
 @implementation ExternalDisplayHandler
