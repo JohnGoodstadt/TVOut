@@ -29,5 +29,56 @@ iPhone, iPad or iPod Touch
 3. Adjust sliders to alter borders to fit to your exact screen - this shows 'ContentInset' property to adjust this. Some TV monitors do not allow full use of maximum resolution.
 
 
+================================================================================
+Use in your own project
+
+1. Copy from TVOut to your project
+ExternalDisplayHandler.h
+ExternalDisplayHandler.m
+
+
+2. Use
+if(ExternalDisplayHandler.monitorExists)
+will detect if TV is attached
+
+3. Set an iVar for the object
+    
+self.externalDisplayHandler = [[ExternalDisplayHandler alloc] init];
+
+
+This will listen for notifications and allow you to control several properties of the display
+    
+4. Set the delegate
+
+self.externalDisplayHandler.delegate = self;
+    
+This enables the following delegates:
+-(void)TVDidDisconnectNotification
+-(void)TVDidConnectNotification:(NSNotification *)notification;
+
+Which will get called when you attach a TV or disconnect a TV to the IOS device    
+
+5. Properties
+    UIScreen*   extScreen; //The UIScreen that represents the TV 
+    /*
+        A UIScreen object contains the bounding rectangle of the device’s entire screen. When setting up your application’s user interface, you should use the properties of this object to get the recommended frame rectangles for your application’s window.
+    */
+	UIWindow*   extWindow; // The UIWindow representing the TV
+	UIView*     contentView; // A parent UIView for your use. This is a child of the extScreen above 
+	NSArray*    availableModes; // an Array of modes so you can set 'extScreen.overscanCompensation'
+    
+    
+6. Clean up
+In ViewDidUnload add the following
+
+    if(self.externalDisplayHandler)
+    {
+        [self.externalDisplayHandler denotify]; // removeconnect/disconnect notifications
+        externalDisplayHandler = nil;
+    }
+    
+            
+    
+    
 Releases:
 V1.0 September 5, 2012
