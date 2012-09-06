@@ -31,8 +31,8 @@
 		52BC7B8E15F76DA6005EAE1E /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8715F76DA6005EAE1E /* arrow-right.png */; };
 		52BC7B8F15F76DA6005EAE1E /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8815F76DA6005EAE1E /* arrow-left.png */; };
 		52BC7B9015F76DA6005EAE1E /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B8815F76DA6005EAE1E /* arrow-left.png */; };
-		52BC7B9215F7B415005EAE1E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B9115F7B415005EAE1E /* README */; };
-		52BC7B9315F7B415005EAE1E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B9115F7B415005EAE1E /* README */; };
+		52BC7B9215F7B415005EAE1E /* help.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B9115F7B415005EAE1E /* help.txt */; };
+		52BC7B9315F7B415005EAE1E /* help.txt in Resources */ = {isa = PBXBuildFile; fileRef = 52BC7B9115F7B415005EAE1E /* help.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 		52BC7B8615F76DA6005EAE1E /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
 		52BC7B8715F76DA6005EAE1E /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
 		52BC7B8815F76DA6005EAE1E /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
-		52BC7B9115F7B415005EAE1E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		52BC7B9115F7B415005EAE1E /* help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = help.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 		52BC7B2C15F75551005EAE1E = {
 			isa = PBXGroup;
 			children = (
-				52BC7B9115F7B415005EAE1E /* README */,
+				52BC7B9115F7B415005EAE1E /* help.txt */,
 				52BC7B7915F755B0005EAE1E /* ExternalMonitor */,
 				52BC7B4115F75551005EAE1E /* TVOut */,
 				52BC7B6815F75551005EAE1E /* TVOutTests */,
@@ -273,7 +273,7 @@
 				52BC7B8B15F76DA6005EAE1E /* arrow-up.png in Resources */,
 				52BC7B8D15F76DA6005EAE1E /* arrow-right.png in Resources */,
 				52BC7B8F15F76DA6005EAE1E /* arrow-left.png in Resources */,
-				52BC7B9215F7B415005EAE1E /* README in Resources */,
+				52BC7B9215F7B415005EAE1E /* help.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +286,7 @@
 				52BC7B8C15F76DA6005EAE1E /* arrow-up.png in Resources */,
 				52BC7B8E15F76DA6005EAE1E /* arrow-right.png in Resources */,
 				52BC7B9015F76DA6005EAE1E /* arrow-left.png in Resources */,
-				52BC7B9315F7B415005EAE1E /* README in Resources */,
+				52BC7B9315F7B415005EAE1E /* help.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +497,7 @@
 				52BC7B7515F75551005EAE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52BC7B7615F75551005EAE1E /* Build configuration list for PBXNativeTarget "TVOutTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +506,7 @@
 				52BC7B7815F75551005EAE1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
