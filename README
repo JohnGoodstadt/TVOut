@@ -68,6 +68,17 @@ Which will get called when you attach a TV or disconnect a TV to the IOS device
 	NSArray*    availableModes; // an Array of modes so you can set 'extScreen.overscanCompensation'
     
     
+6. Clean up
+In ViewDidUnload add the following
+
+    if(self.externalDisplayHandler)
+    {
+        [self.externalDisplayHandler denotify]; // removeconnect/disconnect notifications
+        externalDisplayHandler = nil;
+    }
+    
+            
+    
     
 Releases:
 V1.0 September 5, 2012
