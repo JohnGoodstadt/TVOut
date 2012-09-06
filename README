@@ -1,0 +1,73 @@
+TVOut
+
+Last Revision:
+Version 1.0, 2012-09-5
+Build Requirements:
+iOS SDK 4.2 - Universal App
+Runtime Requirements:
+iOS 4.2 or later
+
+
+This sample application demonstrates how to display user views from an iPad or iPhone/iPad Touch on an external monitor using a HDMI cable or Apple TV box.
+
+Use this file in your own projects as you see fit.
+Please email me at john@goodstadt.me.uk for any problems, fixes, addition or thanks.
+
+================================================================================
+Instructions:
+
+open TVOut.xcodeproj and run onto device.
+connect a HDMI cable from device to TV using apple HDMI connector or over Wifi using Apple TV.
+Set TV to HDMI input.
+
+================================================================================
+
+iPhone, iPad or iPod Touch 
+
+1. Red Square should appear on mobile device and also TV.
+2. Drag around device to also drag square around TV screen.
+3. Adjust sliders to alter borders to fit to your exact screen - this shows 'ContentInset' property to adjust this. Some TV monitors do not allow full use of maximum resolution.
+
+
+================================================================================
+Use in your own project
+
+1. Copy from TVOut to your project
+ExternalDisplayHandler.h
+ExternalDisplayHandler.m
+
+
+2. Use
+if(ExternalDisplayHandler.monitorExists)
+will detect if TV is attached
+
+3. Set an iVar for the object
+    
+self.externalDisplayHandler = [[ExternalDisplayHandler alloc] init];
+
+
+This will listen for notifications and allow you to control several properties of the display
+    
+4. Set the delegate
+
+self.externalDisplayHandler.delegate = self;
+    
+This enables the following delegates:
+-(void)TVDidDisconnectNotification
+-(void)TVDidConnectNotification:(NSNotification *)notification;
+
+Which will get called when you attach a TV or disconnect a TV to the IOS device    
+
+5. Properties
+    UIScreen*   extScreen; //The UIScreen that represents the TV 
+    /*
+        A UIScreen object contains the bounding rectangle of the device’s entire screen. When setting up your application’s user interface, you should use the properties of this object to get the recommended frame rectangles for your application’s window.
+    */
+	UIWindow*   extWindow; // The UIWindow representing the TV
+	UIView*     contentView; // A parent UIView for your use. This is a child of the extScreen above 
+	NSArray*    availableModes; // an Array of modes so you can set 'extScreen.overscanCompensation'
+    
+    
+    
+Releases:
+V1.0 September 5, 2012
