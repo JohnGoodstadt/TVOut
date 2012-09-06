@@ -51,10 +51,13 @@ This will listen for notifications and allow you to control several properties o
 4. Set the delegate
 
 self.externalDisplayHandler.delegate = self;
+Add <ExternalDisplayHandlerDelegate> to your header file that uses the class
     
 This enables the following delegates:
 -(void)TVDidDisconnectNotification
 -(void)TVDidConnectNotification:(NSNotification *)notification;
+
+
 
 Which will get called when you attach a TV or disconnect a TV to the IOS device    
 
